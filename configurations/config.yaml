@@ -1,0 +1,87 @@
+# configurations/config.yaml
+# Duplicate and modify this file as needed to have different configurations for comparative analysis
+
+# -----------------------------------------------------------------
+# API KEYS & ENDPOINTS
+# -----------------------------------------------------------------
+api_settings:
+  openai_api_key: # leave empty if saved as an environmental variable
+  google_api_key: # when both the YAML config and the environmental variable are empty, the user is prompted for manual input
+  ollama_endpoint: "http://localhost:11434" # the default endpoint for Ollama
+
+# -----------------------------------------------------------------
+# FILE & DIRECTORY PATHS
+# -----------------------------------------------------------------
+file_paths:
+  input_data: "input_dataset.csv"
+  prompt_templates: "prompts.json"
+
+# -----------------------------------------------------------------
+# MODEL DEFINITIONS
+# -----------------------------------------------------------------
+models_to_benchmark:
+  # --- OpenAI Models ---
+  - client: "openai"
+    model_name: "gpt-5"
+    requires_translation: false # such large models should perform well in Portuguese without risking having inaccuracies in translation
+    pricing: # Price in USD per 1,000,000 tokens (as of August 2025)
+      individual: { input: 1.25, output: 10.00 }
+      batch: { input: 0.625, output: 5.00 }
+  - client: "openai"
+    model_name: "gpt-5-mini"
+    requires_translation: false
+    pricing:
+      individual: { input: 0.25, output: 2.00 } 
+      batch: { input: 0.125, output: 1.00 }
+  - client: "openai"
+    model_name: "gpt-5-nano"
+    requires_translation: false
+    pricing:
+      individual: { input: 0.05, output: 0.40 } 
+      batch: { input: 0.025, output: 0.20 }
+  - client: "openai"
+    model_name: "o3"
+    requires_translation: false
+    pricing:
+      individual: { input: 2.00, output: 8.00 } 
+      batch: { input: 1.00, output: 4.00 }
+  - client: "openai"
+    model_name: "o4-mini"
+    requires_translation: false
+    pricing:
+      individual: { input: 1.10, output: 4.40 } 
+      batch: { input: 0.55, output: 2.20 }
+
+  # --- Google Models ---
+  - client: "google"
+    model_name: "gemini-2.5-pro" 
+    #rpm: 5 # requests per minute, uncomment to stay withon allowance on a free developer tier
+    requires_translation: false
+    pricing:
+      individual: { input: 1.25, output: 10.00 } # Batching wasn't used for Gemini models
+  - client: "google"
+    model_name: "gemini-2.5-flash"
+    #rpm: 10 
+    requires_translation: false 
+    pricing:
+      individual: { input: 0.30, output: 2.50 } 
+  - client: "google"
+    model_name: "gemini-2.5-flash-lite"
+    #rpm: 15
+    requires_translation: false
+    pricing:
+      individual: { input: 0.30, output: 2.50 } 
+  
+  # --- Ollama Models ---
+  - client: "ollama"
+    model_name: "llama3.1:8b"
+    requires_translation: true # this is a smaller model largely trained using English corpora thus would benefit from translated input
+  - client: "ollama"
+    model_name: "mistral:7b"
+    requires_translation: true
+  - client: "ollama"
+    model_name: "gemma3:12b"
+    requires_translation: true
+  - client: "ollama"
+    model_name: "phi4:14b"
+    requires_translation: true

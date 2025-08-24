@@ -1,0 +1,17 @@
+2025-08-14 14:33:18 [INFO] - Logging configured. Log file at: outputs/runs/run_20250814_143318/benchmark_run_2025-08-14_14-33-18.log
+2025-08-14 14:33:18 [INFO] - Building component-to-label lookup map with include/exclude logic...
+2025-08-14 14:33:18 [INFO] - Lookup map built successfully.
+2025-08-14 14:33:18 [INFO] - Prompts loaded and processed from 'prompts.json'.
+2025-08-14 14:33:18 [INFO] - Loaded and sliced input data: Processing first 50 rows.
+2025-08-14 14:33:18 [INFO] - Starting the main benchmarking process...
+2025-08-14 14:33:18 [INFO] - ===== Processing Model: phi4-mini:3.8b =====
+2025-08-14 14:33:18 [INFO] - Checking for local Ollama model: phi4-mini:3.8b...
+2025-08-14 14:33:18 [INFO] - Ollama model 'phi4-mini:3.8b' found and is ready.
+2025-08-14 14:35:09 [INFO] - ===== Finished Model: phi4-mini:3.8b =====
+2025-08-14 14:35:09 [INFO] - Total Wall-Clock Time: 111.34s (includes sleep).
+2025-08-14 14:35:09 [INFO] - Performance: 0.45 logs/second.
+2025-08-14 14:35:09 [INFO] - Performance metrics for phi4-mini:3.8b saved to outputs/performance_log.csv
+2025-08-14 14:35:09 [INFO] - Results for phi4-mini:3.8b saved to outputs/runs/run_20250814_143318/individual_results/phi4-mini_3.8b_results.csv
+2025-08-14 14:35:10 [INFO] - Compiling all individual results into a master file...
+2025-08-14 14:35:10 [INFO] - Master results file saved to outputs/runs/run_20250814_143318/Master_Benchmark_Results.csv
+2025-08-14 14:35:10 [INFO] - Benchmark run complete.

@@ -1,0 +1,286 @@
+{
+  "prompt_template": "You are an expert wind turbine maintenance analyst. Your task is to analyse the following maintenance log and classify it by providing a structured JSON output based *only* on the lists of valid labels provided.\n\n**Log Details:**\n- Component: {component_name}\n- Description: {description}\n- Observations: {observations}\n\n**Instructions:**\nYou MUST be concise. The \"Specific Problem\" field must be under 20 words. Based on the log details, provide the following classifications:\n\n1. \"Maintenance Type\": Choose the most appropriate category from this list:\n---\n{maintenance_types}\n---\n\n2. \"Issue Category\": Choose the most appropriate category from this list:\n---\n{issue_categories}\n---\n\n3. \"Specific Problem\": Briefly summarise the specific problem if it can be clearly inferred. If not, use \"N/A\".\n4. \"Certainty Level\": Assess your confidence in the classification as 'High', 'Medium', or 'Low'.\n\nYou MUST reply with a single, valid JSON object and nothing else.",
+
+  "maintenance_types": {
+    "Overhaul (Major Component Replacement)": [
+      "MDA10",
+      "MDA11",
+      "MDA12",
+      "MDA13",
+      "MDA20",
+      "MDK10",
+      "MDK20 TL001",
+      "MKA11 GA001",
+      "MSE11",
+      "MST11",
+      "MUD10",
+      "UMD10"
+    ],
+    "New Installation for Upgrade/Retrofit": [
+      "ANY"
+    ],
+    "Corrective Replacement": [
+      "ANY"
+    ],
+    "Corrective Repair": [
+      "ANY"
+    ],
+    "Preventive Replacement": [
+      "ANY"
+    ],
+    "Preventive Repair": [
+      "ANY"
+    ],
+    "Condition-Based / Data-Driven Maintenance": [
+      "ANY"
+    ],
+    "Inspection / Survey / Testing": [
+      "ANY"
+    ],
+    "Cleaning / Lubrication / Refill": {
+      "exclude_codes": [
+        "CKA10",
+        "K001",
+        "MDY10",
+        "MYA10",
+        "T001 XGM10",
+        "U001",
+        "W001",
+        "W100",
+        "W600",
+        "W800",
+        "XFB10",
+        "XFC10"
+      ]
+    },
+    "Calibration / Alignment / Adjustment": [
+      "CKJ10",
+      "MDA10",
+      "MDA11",
+      "MDA12",
+      "MDA13",
+      "MDA20",
+      "MDK30",
+      "MDL10",
+      "MDL20",
+      "MDY10 KF011",
+      "XSD10"
+    ],
+    "Software Update / Parameter Change": [
+      "MDY10",
+      "MDY10 KF011",
+      "MSE11",
+      "MYA10",
+      "T001"
+    ],
+    "System Reset / Alarm Troubleshooting": [
+      "MDY10",
+      "MYA10",
+      "T001"
+    ],
+    "Miscellaneous": [
+      "ANY"
+    ],
+    "Unknown": [
+      "ANY"
+    ]
+  },
+
+  "issue_categories": {
+    "Surface Corrosion / Degradation": [
+      "MDA10",
+      "MDA11",
+      "MDA12",
+      "MDA13",
+      "MDA20",
+      "MUD10",
+      "T001",
+      "U001",
+      "UMD10",
+      "UMD11",
+      "UMD12",
+      "UMD13",
+      "UMD29",
+      "W600",
+      "W800"
+    ],
+    "Tower Integrity": [
+      "UMD10",
+      "UMD11",
+      "UMD12",
+      "UMD13",
+      "UMD29"
+    ],
+    "Rotor Blade Integrity": [
+      "MDA10",
+      "MDA11",
+      "MDA12",
+      "MDA13"
+    ],
+    "Mechanical Wear": [
+      "MDA10",
+      "MDA11",
+      "MDA12",
+      "MDA13",
+      "MDA20",
+      "MDK10",
+      "MDK20 TL001",
+      "MDK30",
+      "MDK40",
+      "MDL10",
+      "MDL20",
+      "MDX10",
+      "XMM11",
+      "XMM21"
+    ],
+    "Pitch System Fault": [
+      "MDA10",
+      "MDA11",
+      "MDA12",
+      "MDA13",
+      "MDA20"
+    ],
+    "Yaw System Fault": [
+      "MDL10",
+      "MDL20"
+    ],
+    "Brake System Fault": [
+      "MDK30"
+    ],
+    "Gearbox Fault": [
+      "MDK20 TL001",
+      "MDK51",
+      "MDK52"
+    ],
+    "Drive-Train Fault": [
+      "MDA10",
+      "MDA11",
+      "MDA12",
+      "MDA13",
+      "MDA20",
+      "MDK10",
+      "MDK20 TL001",
+      "MDK30",
+      "MDK40",
+      "MKA11",
+      "MKA11 GA001"
+    ],
+    "Slip-Ring Fault": [
+      "MKA11",
+      "MKA11 GA001"
+    ],
+    "Generator Fault": [
+      "MKA11",
+      "MKA11 GA001",
+      "MSC11",
+      "MUR20"
+    ],
+    "Hydraulic System Fault": [
+      "MDK30",
+      "MDL20",
+      "MDX10"
+    ],
+    "Lubrication System Fault": [
+      "MDK51",
+      "MDK52"
+    ],
+    "Low Oil Level": [
+      "MDK20 TL001",
+      "MDK51",
+      "MDK52",
+      "MDX10"
+    ],
+    "Leakage (Oil or Fluids)": [
+      "MDK20 TL001",
+      "MDK30",
+      "MDK51",
+      "MDK52",
+      "MDL20",
+      "MDX10",
+      "MSE40",
+      "MST20",
+      "MUD20",
+      "MUR20"
+    ],
+    "Cooling & HVAC Fault": [
+      "MSE40",
+      "MST20",
+      "MUD20",
+      "MUR20",
+      "XAM10",
+      "XAM20"
+    ],
+    "CMS / Sensor / Instrumentation Fault": [
+      "CKA10",
+      "CKJ10",
+      "MDY10 KF011",
+      "XSD10"
+    ],
+    "Communication Error (SCADA / Bus / Network)": [
+      "K001",
+      "MDY10",
+      "MYA10",
+      "T001"
+    ],
+    "Controller Software Fault": [
+      "MDY10"
+    ],
+    "Controller Hardware Fault": [
+      "MDY10"
+    ],
+    "Electrical Fault (Low-Voltage & Cabling)": {
+      "exclude_codes": [
+        "MDA10",
+        "MDA11",
+        "MDA12",
+        "MDA13",
+        "MDA20",
+        "MDK10",
+        "MDK20 TL001",
+        "MUD10",
+        "UMD10",
+        "UMD11",
+        "UMD12",
+        "UMD13",
+        "UMD29",
+        "W600",
+        "W800"
+      ]
+    },
+    "Power Converter Fault": [
+      "MSE11",
+      "MSE40",
+      "MUR20"
+    ],
+    "Other Power Electronics Fault": [
+      "MSC11",
+      "MST11"
+    ],
+    "Safety & Fire-Protection Equipment": [
+      "CKA10",
+      "T001 XGM10",
+      "WBA11",
+      "XFB10",
+      "XFC10",
+      "XGM10"
+    ],
+    "Internal / External Debris": [
+      "ANY"
+    ],
+    "Site Infrastructure & Access Ways": [
+      "K001",
+      "T001",
+      "U001",
+      "W001",
+      "W100",
+      "W600",
+      "W800"
+    ],
+    "Miscellaneous": [
+      "ANY"
+    ],
+    "Unknown": [
+      "ANY"
+    ]
+  }
+}
