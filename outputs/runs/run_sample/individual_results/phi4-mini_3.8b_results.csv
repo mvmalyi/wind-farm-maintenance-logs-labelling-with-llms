@@ -1,0 +1,51 @@
+WONUM,phi4-mini_3.8b_Prompt_Tokens,phi4-mini_3.8b_Comp_Tokens,phi4-mini_3.8b_Sleep_Duration,phi4-mini_3.8b_Maint_Type,phi4-mini_3.8b_Issue_Cat,phi4-mini_3.8b_Spec_Problem,phi4-mini_3.8b_Certainty
+124161,329,51,0.0,Corrective Repair,Electrical Fault (Cabling),Blown bulb on input cell voltage indicator L1.,High
+111667,299,48,0.0,Corrective Repair,Surface Corrosion / Degradation,Oxidation on tower paint,High
+111669,305,53,0.0,Corrective Repair,Surface Corrosion / Degradation,Oxidation on tower painting at bottom section junctions.,High
+103236,299,48,0.0,Corrective Repair,Surface Corrosion / Degradation,Safety signage discoloration/degradation,High
+117475,318,47,0.0,Corrective Replacement,Gearbox Fault,Replacement of gearbox slip ring due to fault.,High
+185199,321,51,0.0,Corrective Repair,Hydraulic System Fault,Stop with error 174 Feedback Hyd. Motor=0,High
+217334,320,48,0.0,Corrective Repair,Power Converter Fault,Stop with error 546 due to successive stops.,High
+185208,326,52,0.0,Corrective Repair,Unknown,Rotor Hub Unit stopped due to error 675- Signal EMC-valve issue.,High
+145876,309,53,0.0,Corrective Repair,Safety & Fire-Protection Equipment,Turbine stopped due to FM922 (Fire Warn),High
+145874,317,49,0.0,Corrective Replacement,Power Converter Fault,TE stoppage due to Q8 Breaker Open,High
+269936,323,44,0.0,Corrective Repair,Rotor Blade Integrity,Repair of blade 3,High
+185622,310,54,0.0,Corrective Repair,Generator Fault,Stop due to high water temperature error code 546 in Generator Switching System Gen1.,High
+145816,319,47,0.0,Corrective Replacement,Generator Fault,Replace Generator NDE bearing coupling's rubber element,High
+111612,323,48,0.0,Corrective Repair,Rotor Blade Integrity,Repair CAT.3 damage on rotor blade system.,High
+217240,323,44,0.0,Corrective Replacement,Rotor Blade Integrity,Replacement of blade bearing B,High
+217641,307,54,0.0,Inspection / Survey / Testing,Surface Corrosion / Degradation,Signage wear on entrance door bottom section tower system.,High
+269614,323,48,0.0,Corrective Repair,Power Converter Fault,Error FM1208 - MI class B fault.,High
+392370,331,49,0.0,Corrective Repair,Hydraulic System Fault,Error 161 - Hydr max time exceeded,High
+254764,320,50,0.0,Corrective Repair,Leakage (Oil or Fluids),Correct oil leak in hydraulic power unit,High
+392342,319,46,0.0,Corrective Repair,Generator Fault,Error during generator brush replacement indicating service issue.,High
+392344,319,45,0.0,Corrective Repair,Generator Fault,Error during brush replacement indicating service issue.,High
+392343,319,45,0.0,Corrective Repair,Generator Fault,Error during brush replacement indicating service issue.,High
+293602,323,48,0.0,Corrective Repair,Power Converter Fault,Error FM1208 - MI class B fault.,High
+409854,311,44,0.0,Corrective Repair,Yaw System Fault,Repair of yaw braking system,High
+132773,327,43,0.0,Inspection / Survey / Testing,Rotor Blade Integrity,N/A,High
+311805,305,48,0.0,Corrective Repair,Surface Corrosion / Degradation,Damaged nacelle coating sponge.,High
+311816,306,48,0.0,Corrective Repair,Surface Corrosion / Degradation,Damaged nacelle coating sponge.,High
+343713,321,44,0.0,Corrective Replacement,Mechanical Wear,Pipe replacement due to alarm occurrence,High
+393994,304,45,0.0,Inspection / Survey / Testing,Unknown,Analysis of problem in aerial lighting,High
+623122,322,50,0.0,Inspection / Survey / Testing,Hydraulic System Fault,Pitch inspection (hydraulic oil analysis recommendation),High
+328005,321,42,0.0,Corrective Replacement,Pitch System Fault,Replace pitch inverter,High
+410050,319,46,0.0,Corrective Replacement,Generator Fault,CMS alarm on generator NDE bearing replacement,High
+426298,316,46,0.0,Corrective Replacement,Generator Fault,NDE bearing replacement on Generator N1,High
+426847,315,43,0.0,Corrective Repair,Mechanical Wear,Repair of yaw brake system,High
+328360,317,54,0.0,Corrective Replacement,Power Converter Fault,FM1208: Cooling converter system replacement due to error code FM1208.,High
+376212,308,45,0.0,Inspection / Survey / Testing,Yaw System Fault,Yaw Ring Verification Failure,High
+392366,323,44,0.0,Inspection / Survey / Testing,Rotor Blade Integrity,Blade inspection required.,High
+442442,318,49,0.0,Corrective Replacement,Hydraulic System Fault,Offline hydraulic oil filter replacement due to suspected fault.,High
+392276,320,49,0.0,Corrective Repair,Hydraulic System Fault,Oil alarm due to sludge pitch hydro station issue.,High
+392280,319,59,0.0,Corrective Repair,Electrical Fault (Low-Voltage & Cabling),Q8 breaker open error causing stop in MV-Transformation Generator 1,High
+392282,325,48,0.0,Corrective Repair,Internal / External Debris,Oil leakage from hub oil retention basin.,High
+392284,312,41,0.0,Corrective Repair,Unknown,Error on Q7,High
+375372,340,51,0.0,Corrective Repair,Brake System Fault,Successive stops with error FM130 indicating brake not open analog.,High
+392285,334,49,0.0,Corrective Repair,Power Converter Fault,Converter System Generator 1 stops due to RT error.,High
+392289,332,43,0.0,Corrective Repair,Mechanical Wear,Oil leakage at hub unit.,High
+392293,320,45,0.0,Corrective Repair,Power Converter Fault,Rotor inv HW error L_,High
+392294,320,48,0.0,Corrective Repair,Hydraulic System Fault,Oil alarm due to sludge pitch hydraulic station,High
+392295,319,46,0.0,Corrective Repair,Low Oil Level,Hydraulic station low oil-level alarm.,High
+392296,319,46,0.0,Corrective Repair,Low Oil Level,Hydraulic station low oil-level alarm.,High
+392299,327,53,0.0,Corrective Repair,Power Converter Fault,Gear oil pressure low mbar/°C causing stops due to error.,High
