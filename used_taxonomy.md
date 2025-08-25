@@ -1,4 +1,4 @@
-# Appendices
+# Paper Appendices
 
 These tables list the used labels within the `prompts.json` and provide a legend for the component codes commonly used in maintenance logs from wind turbines.
 
