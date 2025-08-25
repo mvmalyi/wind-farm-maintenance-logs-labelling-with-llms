@@ -1,4 +1,4 @@
-# Introduction
+# Introduction to Results
 
 The study has been published on {} and is available in open-access as an academic paper. Below, is a non-academic but rather technical and more detailed report on the obtained results, first given as the big picture synthesis, with a following break-down of each output, providing interpretation, analysis, and summary subsections for each.
 
