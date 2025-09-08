@@ -5,7 +5,7 @@
 An open-source, reproducible framework for benchmarking Large Language Models (LLMs) for the classification of unstructured wind turbine maintenance logs. This project evaluates proprietary and open-source models on performance, cost, and calibration to support data-driven O&M in the wind energy sector.
 
 This repository contains the full source code and supplementary materials for the paper:
-> Malyi, M., Shek, J. and McDonald, A., 2025. *A Comparative Benchmark of Large Language Models for Data Labelling Applied to Wind Turbine Maintenance Logs*
+> Malyi, M., Shek, J., McDonald, A., Biscaya A., 2025. *A Comparative Benchmark of Large Language Models for Data Labelling Applied to Wind Turbine Maintenance Logs*
 
 ---
 
