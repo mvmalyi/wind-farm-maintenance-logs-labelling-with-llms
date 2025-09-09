@@ -1,7 +1,9 @@
 # Leverging LLMs for Labelling Wind Turbine Maintenance Logs with A Comparative Benchmark of Models Used
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16948632.svg)](https://doi.org/10.5281/zenodo.16948632) [![arXiv](https://img.shields.io/badge/arXiv-2509.06813-b31b1b.svg)](https://arxiv.org/abs/2509.06813)
- [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mvmalyi/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1503-9798) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Max-Malyi) [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=FgcRBeUAAAAJ)
+ [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/) 
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mvmalyi/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1503-9798) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Max-Malyi) [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=FgcRBeUAAAAJ)
 
 An open-source, reproducible framework for benchmarking Large Language Models (LLMs) for the classification of unstructured wind turbine maintenance logs. This project evaluates proprietary and open-source models on performance, cost, and calibration to support data-driven O&M in the wind energy sector.
 
