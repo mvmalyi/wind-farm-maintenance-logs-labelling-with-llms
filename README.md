@@ -1,6 +1,6 @@
 # Leverging LLMs for Labelling Wind Turbine Maintenance Logs with A Comparative Benchmark of Models Used
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16948632.svg)](https://doi.org/10.5281/zenodo.16948632) [![arXiv](https://img.shields.io/badge/arXiv-2509.06813-b31b1b.svg)](https://arxiv.org/abs/2509.06813)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16948632.svg)](https://doi.org/10.5281/zenodo.16948632) [![IET Renewable Power Generation](https://img.shields.io/badge/IET%20Renewable%20Power%20Generation-rpg2.70212-003087.svg)](https://doi.org/10.1049/rpg2.70212) [![arXiv](https://img.shields.io/badge/arXiv-2509.06813-b31b1b.svg)](https://arxiv.org/abs/2509.06813)
  [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/) 
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mvmalyi/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1503-9798) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Max-Malyi) [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=FgcRBeUAAAAJ)
@@ -8,7 +8,7 @@
 An open-source, reproducible framework for benchmarking Large Language Models (LLMs) for the classification of unstructured wind turbine maintenance logs. This project evaluates proprietary and open-source models on performance, cost, and calibration to support data-driven O&M in the wind energy sector.
 
 This repository contains the full source code and supplementary materials for the paper:
-> Malyi, M., Shek, J., McDonald, A., & Biscaya, A. (2025). *A Comparative Benchmark of Large Language Models for Labelling Wind Turbine Maintenance Logs*. arXiv preprint arXiv:2509.06813.
+> M. Malyi, J. Shek, A. McDonald, and A. Biscaya, “A Comparative Benchmark of Large Language Models for Labelling Wind Turbine Maintenance Logs.” IET Renewable Power Generation20, no. 1 (2026): e70212. https://doi.org/10.1049/rpg2.70212
 
 ---
 
