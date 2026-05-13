@@ -139,4 +139,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Max Malyi - Max.Malyi@ed.ac.uk
 
-Project Link: [Wind Farm Maintenance Logs Labelling with LLMs](https://github.com/your-username/wind-farm-maintenance-logs-labelling-with-llms)
+Project Link: [Wind Farm Maintenance Logs Labelling with LLMs](https://github.com/mvmalyi/wind-farm-maintenance-logs-labelling-with-llms)
